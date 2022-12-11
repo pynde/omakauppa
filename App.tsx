@@ -7,8 +7,8 @@ const {height} = Dimensions.get('window');
 const App = () => {
   return (
     <View style={styles.container}>
-      <View style={styles.center}> 
       <NavBar/>
+      <View style={styles.center}> 
       <Text>JEEE</Text>
       </View>
     </View>
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'flex-start',
     alignItems: 'center',
-    backgroundColor: 'orange'
+    backgroundColor: 'yellow'
   },
 });
 
